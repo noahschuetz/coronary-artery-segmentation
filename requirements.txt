@@ -1,0 +1,22 @@
+torch>=2.0
+torchvision
+monai[all]>=1.3
+mamba-ssm>=2.0
+causal-conv1d
+scikit-learn
+scikit-image
+tensorboard
+tqdm
+pandas
+pyyaml
+nibabel
+numpy
+scipy
+
+# 3D Visualization
+pyvista>=0.43.0
+plotly>=5.18.0
+kaleido>=0.2.1
+
+# Model hosting
+huggingface_hub>=0.20

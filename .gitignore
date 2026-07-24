@@ -1,0 +1,43 @@
+# Python
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+/mip_env/
+
+# Data (large files, not source)
+/data/
+*.nii.gz
+*.nii
+
+# Results and generated outputs
+/results/
+/visualizations/
+
+# Presentations and papers (submitted separately)
+/presentations/
+/papers/
+
+# Stray test data files at root
+*.graph.json
+
+# OS / editor artifacts
+*.Identifier
+=
+.DS_Store
+
+# Model checkpoints
+*.pth
+*.pt
+*.ckpt
+
+# Cache
+/.cache/
+
+# Claude Code local settings
+.claude/
+
+# Python packaging
+*.egg-info/
